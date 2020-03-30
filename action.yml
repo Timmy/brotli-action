@@ -1,0 +1,9 @@
+name: Brotli Action
+description: >
+  GitHub Action for compressing assets with the Brotli compression algorithm.
+runs:
+  using: docker
+  image: Dockerfile
+branding:
+  color: green
+  icon: archive
